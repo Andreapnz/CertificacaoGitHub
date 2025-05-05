@@ -1,4 +1,4 @@
-# 🚀 Fundamentos GitHub
+# 🚀 Domain 1: Introduction to Git and GitHub
 
 ## 📚 O que é controle de versão?
 
