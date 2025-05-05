@@ -1,55 +1,54 @@
-# Domain 2: Working with GitHub Repositories 
-Este domínio foca nas habilidades práticas para trabalhar com repositórios no GitHub, incluindo criação, gerenciamento e colaboração.
+# 🧠 Domain 2: Working with GitHub Repositories 
 
-📁 Criando e Gerenciando Repositórios
-Criar repositório: Pode ser público ou privado.
 
-README.md: Arquivo de descrição inicial do projeto (Markdown).
+## 📁 Criando e Gerenciando Repositórios
 
-.gitignore: Define arquivos/pastas que o Git deve ignorar.
+- **Criar repositório:** Público ou privado.
+- **README.md:** Apresentação do projeto (formato Markdown).
+- **.gitignore:** Lista de arquivos/pastas ignorados pelo Git.
+- **LICENSE:** Define os direitos de uso do projeto (ex: MIT, GPL).
 
-Licença (LICENSE): Define direitos de uso do projeto.
 
-🔄 Operações Comuns
-git clone: Clona um repositório remoto para a máquina local.
+## 🔄 Operações Comuns com Git
 
-git add: Adiciona arquivos ao stage.
+| Comando               | Função                                              |
+|-----------------------|-----------------------------------------------------|
+| `git clone`           | Copia um repositório remoto para sua máquina        |
+| `git add`             | Adiciona arquivos ao stage                          |
+| `git commit -m ""`    | Registra alterações com uma mensagem                |
+| `git push`            | Envia commits para o repositório remoto             |
+| `git pull`            | Atualiza o repositório local com mudanças remotas   |
 
-git commit: Salva alterações localmente com uma mensagem.
 
-git push: Envia commits locais para o repositório remoto.
+## 🌿 Trabalhando com Branches
 
-git pull: Atualiza o repositório local com as últimas alterações remotas.
+- Criar nova branch: `git checkout -b nome-da-branch`
+- Trocar de branch: `git checkout nome-da-branch`
+- Juntar branches: `git merge nome-da-branch`
+- Resolver conflitos manualmente se houver conflitos de linha
 
-🌿 Trabalhando com Branches
-Criar branch: git checkout -b nome-da-branch
 
-Trocar branch: git checkout nome-da-branch
+## 🔧 Pull Requests (PR)
 
-Merge: Une alterações de uma branch com outra (geralmente com a main ou develop).
+- Propostas de alteração em um repositório.
+- Passam por **revisão**, **comentários** e **aprovação**.
+- Podem ser integradas com **CI/CD** para testes automáticos.
 
-Conflitos: Ocorrem quando duas alterações afetam a mesma linha — precisam ser resolvidos manualmente.
 
-🔧 Pull Requests (PR)
-Usados para propor alterações.
+## 📌 Forks e Contribuições
 
-Podem ser revisados, comentados e aprovados por colaboradores.
+- **Fork:** Cópia do repositório na sua conta GitHub.
+- Após alterações, envie um **Pull Request** para o repositório original.
+- Útil quando não se tem permissão de escrita no projeto original.
 
-Geralmente envolvem validação automática (CI).
 
-📌 Forks e Contribuições
-Fork: Cria uma cópia do repositório em sua conta.
+## ✅ Boas Práticas
 
-Após alterações, envia-se um Pull Request para o repositório original.
+- Escreva **mensagens de commit claras e objetivas**
+- Atualize sua branch com `git pull` antes de abrir PR
+- Documente suas alterações no README.md
+- Use **Issues** e **Projects** para organização e rastreamento
 
-Usado quando não se tem permissão de escrita no repositório original.
 
-✅ Boas Práticas
-Usar mensagens de commit claras.
-
-Atualizar a branch antes de fazer PR.
-
-Documentar alterações no README.
-
-Utilizar issues e projetos para organização.
+🧩 **Dica bônus:** Use labels, milestones e GitHub Projects para acompanhar o progresso do projeto de forma visual e organizada!
 
